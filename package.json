@@ -1,0 +1,36 @@
+{
+  "name": "URL_Shortener_Microservice",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-bond/URL_Shortener_Microservice.git"
+  },
+  "keywords": [
+    "url",
+    "url",
+    "shortener",
+    "microservice",
+    "javascript",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Nick Bond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nick-bond/URL_Shortener_Microservice/issues"
+  },
+  "homepage": "https://github.com/Nick-bond/URL_Shortener_Microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.9",
+    "node": "^13.6.0"
+  }
+}

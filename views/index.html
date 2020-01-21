@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener Microservice</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="/assets/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <h2>URL Shortener Microservice</h2>
+
+    <h3>Short URL Creation </h3>
+    <p>
+        example: <code>POST [project_url]/api/shorturl/new</code> - <code>https://www.google.com</code>
+    </p>
+    <form action="api/shorturl/new" method="POST">
+        <label for="url_input">URL to be shortened</label>
+        <input id="url_input" type="text" name="url" placeholder="Url for shortened">
+        <input type="submit" value="POST URL">
+    </form>
+    <h3>Example Usage:</h3>
+    <a href="#">
+        [this_project_url]/api/shorturl/f24d2349
+    </a>
+
+    <h3>Will Redirect to:</h3>
+    <p>https://{YOUR_SITE_NAME}/test/page/</p>
+</div>
+<div class="footer">
+    <p>
+        by <a href="#">Nick Bond</a>
+    </p>
+</div>
+</body>
+</html>
